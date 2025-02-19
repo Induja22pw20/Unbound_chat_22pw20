@@ -20,3 +20,6 @@ In Milestone 4, I built a minimal web-based chat UI that allows users to interac
 https://www.loom.com/share/209a34494bfb476eb9b7e8fe3a199720?sid=bd359e91-1e1b-41a6-b795-29c658f2978d
 
 In Milestone 5, I created an admin portal for managing regex policies. This included developing a web interface to add, edit, and delete regex rules, associating them with specific redirect and original models. This enhances my chat application's flexibility by dynamically rerouting models based on user prompts.
+# demo video link - milestone 6
+https://www.loom.com/share/a53f589bb76340a59b337a0ad6df2006?sid=8d932ab5-eba5-4be2-a15c-5f86994ca9e4
+I added the FileUpload model to store file information in the database.

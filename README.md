@@ -22,8 +22,7 @@ https://www.loom.com/share/209a34494bfb476eb9b7e8fe3a199720?sid=bd359e91-1e1b-41
 In Milestone 5, I created an admin portal for managing regex policies. This included developing a web interface to add, edit, and delete regex rules, associating them with specific redirect and original models. This enhances my chat application's flexibility by dynamically rerouting models based on user prompts.
 # demo video link - milestone 6
 https://www.loom.com/share/a53f589bb76340a59b337a0ad6df2006?sid=8d932ab5-eba5-4be2-a15c-5f86994ca9e4
-
-
+I added the FileUpload model to store file information in the database.
 
 
 # Unbound Chat App
@@ -110,48 +109,4 @@ add_regex_policies: Adds regex policies for routing.
 add_predefined_responses: Adds predefined responses for providers.
 
 
-## Project Structure
-unbound_chat_app/
-    chat/
-        __init__.py
-        admin.py
-        apps.py
-        management/
-            commands/
-                add_model_data.py
-                add_regex_policies.py
-                add_predefined_responses.py
-        migrations/
-            __init__.py
-            0001_initial.py
-            0002_aimodel.py
-            0003_alter_modelprovider_name_regexpolicy_delete_aimodel.py
-            0004_providerresponse.py
-            0005_remove_regexpolicy_model_provider_and_more.py
-            0006_alter_regexpolicy_original_model_and_more.py
-            0007_fileupload_provider_alter_regexpolicy_original_model_and_more.py
-        models.py
-        static/
-            css/
-                admin-styles.css
-                styles.css
-        templates/
-            chat/
-                admin_page.html
-                index.html
-        tests.py
-        urls.py
-        views.py
-    db.sqlite3
-    manage.py
-    static/
-        css/
-            styles.css
-    unbound_chat_app/
-        __init__.py
-        asgi.py
-        settings.py
-        urls.py
-        wsgi.py
 
-I added the FileUpload model to store file information in the database.

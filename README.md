@@ -16,3 +16,7 @@ https://www.loom.com/share/37e8836a1a4c4592b803a63f0bea79c0?sid=2cc6ddff-26ca-40
 # demo video link - milestone 4
 https://www.loom.com/share/f9f3216a200f475ca4958f3873bd03ab?sid=a7017ac0-9578-4d26-a2a6-4c7cf9785454
 In Milestone 4, I built a minimal web-based chat UI that allows users to interact with the chat application. The UI fetches and lists available models via the /models endpoint, provides dropdown menus for users to select a provider and model, accepts user prompts, sends requests to the POST /v1/chat/completions endpoint, and displays the response. Additionally, I enhanced the UI with animations, transitions, and hover effects to make it visually appealing and engaging.
+# demo video link - milestone 5
+https://www.loom.com/share/209a34494bfb476eb9b7e8fe3a199720?sid=bd359e91-1e1b-41a6-b795-29c658f2978d
+
+In Milestone 5, I created an admin portal for managing regex policies. This included developing a web interface to add, edit, and delete regex rules, associating them with specific redirect and original models. This enhances my chat application's flexibility by dynamically rerouting models based on user prompts.

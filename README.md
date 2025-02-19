@@ -13,3 +13,6 @@ https://www.loom.com/share/37e8836a1a4c4592b803a63f0bea79c0?sid=2cc6ddff-26ca-40
 - **Modified View Logic**: Enhanced the `chat_completions` view to validate inputs, apply regex-based routing, and return appropriate responses.
 - **Added Management Command**: Created a command to populate the database with predefined regex policies for routing.
 - **Tested and Verified**: Ensured that prompts matching specific patterns (e.g., "credit card") were rerouted to the correct model and provided the expected responses. 🚀
+# demo video link - milestone 4
+https://www.loom.com/share/f9f3216a200f475ca4958f3873bd03ab?sid=a7017ac0-9578-4d26-a2a6-4c7cf9785454
+In Milestone 4, I built a minimal web-based chat UI that allows users to interact with the chat application. The UI fetches and lists available models via the /models endpoint, provides dropdown menus for users to select a provider and model, accepts user prompts, sends requests to the POST /v1/chat/completions endpoint, and displays the response. Additionally, I enhanced the UI with animations, transitions, and hover effects to make it visually appealing and engaging.
